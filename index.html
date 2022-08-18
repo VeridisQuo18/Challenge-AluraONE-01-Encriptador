@@ -1,80 +1,66 @@
 <!DOCTYPE html>
 
-<html lang="es-MX">
+<html lang="en-US">
 
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Challenge-One-01-Encriptador</title>
+    <title>Encryptor!</title>
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/main.css">
-
 </head>
 
 <body>
 
     <header>
-        
               <img src="img/alura.svg" alt="Alura">
-    
     </header>
 
     <main>
-
-        <section class="encriptar">
-
-            <textarea id="introducir-texto" class="textarea" type="mensaje"
-                cols="50" rows="10" placeholder="Ingrese el texto aquí">
+        <section class="Encrypt">
+            <textarea id="inputText" class="textarea" type="mensaje"
+                cols="50" rows="10" placeholder="Input the text here.">
             </textarea>
 
-            <div class="alerta">
+            <div class="alert">
 
-                <p>Solo letras minúsculas y sin acentos</p>
-            
+                <p>Only lowercase letters and no accents.</p>
             </div>
 
             <div class="btn-conteiner">
-            
-                <button id="btn1" class="btn1">Encriptar!</button>
-                <button id="btn2" class="btn2">Desencriptar!</button>
-            
+                <button id="btn1" class="btn1">Encrypt!</button>
+                <button id="btn2" class="btn2">Decrypt!</button>
             </div>
-
         </section>
 
-        <section class="tablero">
-
-            <div id="conteiner-resultado">
-
-                <h2 id="titulo-resultado"></h2>
-
+        <section class="table">
+            <div id="conteiner-result">
+                <h2 id="title-result"></h2>
             </div>
 
             <div id="toy" class="conteinerImg">
-
-                <img src="img/character.svg" alt="Muñeco">
-                <p class="text1"><strong>Ningún  mensaje fue encontrado</strong></p>
-                <p class="text2">Ingresa el texto que deseas encriptar o desencriptar</p>
-
+                <img src="img/character.svg" alt="Figure">
+                <p class="text1"><strong>No text was found.</strong></p>
+                <p class="text2">Enter the text you want to encrypt or decrypt.</p>
             </div>
 
-            <textarea id="resultado" readonly></textarea>
-            <button id="btn-copy" class="btnCopy">Copiar</button>
+            <textarea id="result" readonly>
+            </textarea>
 
+            <button id="btn-copy" class="btnCopy">
+                Copy text
+            </button>
         </section>
-
     </main>
 
-    <footer>
-
-        &nbsp;
-        <a>&copy; 2022 Paulo Abraham Barrientos Casanova/ALURA LATAM</a>
-
+    <footer>    
+        <a> &copy;2022&nbsp; </a>
+        <a href="https://github.com/veridisQuo18"> VeridisQuo18 </a>
+        &xcap;
+        <a href="https://www.aluracursos.com/"> Alura Latam </a>
     </footer>
 
     <script src="main.js"></script>
     
 </body>
-
 </html>

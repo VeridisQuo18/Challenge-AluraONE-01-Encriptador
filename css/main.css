@@ -20,7 +20,7 @@ header{
      width: 3%;
  }
 
- .encriptar{
+ .Encrypt{
     display: flex;
     flex-direction: column;
     width: 80%;
@@ -58,12 +58,12 @@ header{
     margin-bottom: 0;
     justify-content: center;
 }
-.alerta p{
+.alert p{
     width: 100%;
     text-align: center;
     font-size: 1.2em;
 }
-.alerta p::before{
+.alert p::before{
     content: url(../img/alert.svg);
     padding-right: 1em;
 }
@@ -101,7 +101,7 @@ margin-right: 0;
 border: 2px solid #0A3871;
 }
 
-.tablero{
+.table{
 display: flex;
 flex-direction: column;
 width: 25%;
@@ -139,7 +139,7 @@ align-items: center;
     font-size: 1.3em;
 }
 
-#titulo-resultado{
+#title-result{
     margin-top: 1em;
     color: rgba(255, 255, 255, 0.933);
     font-weight: bold;
@@ -148,7 +148,7 @@ align-items: center;
     border-bottom: 1px solid #fff;
 }
    
-#resultado{
+#result{
 display: flex;
 color: rgb(255, 255, 255);
 width: 90%;
@@ -223,14 +223,14 @@ footer{
         margin-top: 10%;
         width: 100%;
     }
-    .tablero{
+    .table{
         margin: auto;
         width: 90%;
         
         height:auto;
     
     }
-    .tablero img{
+    .table img{
         display: none;
         margin: none;
     }
@@ -243,7 +243,7 @@ footer{
         width: 95%;
         height: 4em;
     }
-    #resultado{
+    #result{
         height: auto;
         margin: 0;
         margin-top: 1em;
